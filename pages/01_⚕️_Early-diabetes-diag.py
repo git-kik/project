@@ -53,7 +53,7 @@ def predict_early_diabetes(
 
 def diabetes_app():
     st.set_page_config(
-        page_title="Healthify - Diabetes Diagnosis",
+        page_title="FitSphere",
         page_icon="🏥",
     )
     st.markdown(
