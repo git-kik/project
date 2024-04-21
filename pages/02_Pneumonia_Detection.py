@@ -85,7 +85,7 @@ def predict(image):
 # Streamlit app
 def app():
    st.set_page_config(
-        page_title="Healthify - Chest Xray & Pneumonia Detection",
+        page_title="Chest Xray & Pneumonia Detection",
         page_icon="🏥",
     )
    st.markdown(
