@@ -135,7 +135,7 @@ def app():
                             doctor = f"- [{s}]({doctor_search(s)})"
                             st.markdown(doctor, unsafe_allow_html=True)
                         st.markdown("---")
-                else:
+            else:
                     st.write("This is not an X-ray image.")
 
 if __name__ == "__main__":
