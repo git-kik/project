@@ -1,6 +1,6 @@
 -f https://download.pytorch.org/whl/torch_stable.html
 tensorflow==2.15.0
-torch==1.8.1+cpu 
+torch==1.13.0+cpu 
 torchvision==0.9.1+cpu 
 joblib==1.1.0
 numpy==1.22.0
