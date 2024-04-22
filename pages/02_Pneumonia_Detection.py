@@ -107,7 +107,7 @@ def app():
             # Predict if image is X-ray or not
             xray_prediction = predict_xray(uploaded_image)
 
-            if xray_prediction[0][0] > 0.5:  # Assuming 0 is non-X-ray and 1 is X-ray
+            if xray_prediction[0][0] > 0.3:  # Assuming 0 is non-X-ray and 1 is X-ray
                     prediction, confidence = predict(uploaded_image)
                     print(prediction)
                     if prediction == 0:
